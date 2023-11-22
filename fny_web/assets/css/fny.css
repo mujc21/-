@@ -1,0 +1,317 @@
+.fny_add_auditor {
+    /*background-color: #649adb;*/
+	background-color: white;
+    position: relative;
+    top: -10px;
+    left: 25px;
+    width: 250px;
+    height: 250px;
+}
+
+.fny_ok_button {
+	position:relative;
+	background-color: #4ff686;
+	top: -5px;
+	left: 15px;
+	height: 30px;
+	width: 100px;
+	border-radius: 15px;
+	border-width: 8px;
+	border-color: #bdbdbc;
+	text-align: center;
+	font-size: 16px;
+	border: hidden;
+}
+
+.fny_ok_button:hover {
+	background-color: rgb(0, 159, 0);
+	color:black;
+	transition: background-color 1.0s ease;
+}
+
+.fny_ok_button:active {
+	border: solid;
+}
+
+.fny_cancel_button {
+	position:relative;
+	background-color: #f77254;
+	top: -5px;
+	left: 30px;
+	height: 30px;
+	width: 100px;
+	border-radius: 15px;
+	border-width: 8px;
+	text-align: center;
+	font-size: 16px;
+	border: hidden;
+}
+
+.fny_cancel_button:hover {
+	background-color: rgb(175, 0, 0);
+	color:black;
+	transition: background-color 1.0s ease;
+}
+
+.fny_cancel_button:active {
+	border: solid;
+}
+
+.fny_delete_auditor {
+    background-color: #649adb;
+    position: relative;
+    top: -10px;
+    left: 25px;
+    width: 250px;
+    height: 170px;
+}
+
+.fny_one_post {
+	position: absolute;
+	background-color: #ffffff;
+	border: 5px solid black;
+	overflow:auto;
+	left: 250px;
+	top: 50px;
+	width: 830px;
+	height: 500px;
+}
+
+.fny_head_sculpture_in_one_post{
+	position: relative;
+	background-image: url("../picture/head_structure.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	left: 50px;
+	top: 30px;
+	height: 70px;
+	width: 70px;
+}
+
+.fny_username_in_one_post{  /*TODO*/
+	position:relative;
+	top: -65px;
+	left: -135px;
+}
+
+.fny_introduction_in_one_post{
+	position: relative;
+	top: -70px;
+	left: -103px;
+	color: black; 
+	margin-bottom: 30px; 
+	font-size: 16px;
+	text-align: center;
+}
+
+.fny_dianzan_in_one_post{
+	position: relative;
+	background-image: url("../picture/dianzan.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	left: 580px;
+	top: -350px;
+	height: 40px;
+	width: 40px;
+}
+
+.fny_shoucang_in_one_post{
+	position: relative;
+	background-image: url("../picture/shoucang.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	left: 640px;
+	top: -390px;
+	height: 40px;
+	width: 42px;
+}
+
+.fny_zhuanfa_in_one_post{
+	position: relative;
+	background-image: url("../picture/zhuanfa.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	left: 700px;
+	top: -428px;
+	height: 35px;
+	width: 45px;
+}
+
+.fny_picture_in_one_post{
+	position: relative;
+	background-image: url("../picture/result_image.jpg");
+	background-size: cover;
+	background-position: center;  
+	background-repeat: no-repeat;
+	left: 150px;
+	top: -50px;
+	height: 200px;
+	width: 300px;
+}
+
+.fny_one_comment_in_one_post {
+	position: absolute;
+	border: solid 2px rgb(152, 152, 152);
+	top: 400px;
+	left: 150px;
+	width: 600px;
+	height: 100px;
+}
+
+.fny_head_structure_in_comment{
+	position: relative;
+	background-image: url("../picture/comment_head.webp");
+	background-size: cover;
+	background-position: center;  
+	background-repeat: no-repeat;
+	left: 25px;
+	top: 15px;
+	height: 50px;
+	width: 50px;
+}
+
+.fny_username_in_comment{
+	position:relative;
+	top: -55px;
+	left: -145px;
+	font-size: 16px;
+}
+
+.fny_comment_content_in_comment{
+	position:relative;
+	top: -65px;
+	left: -160px;
+	font-size: 14px;
+}
+
+.fny_dianzan_in_one_comment{
+	position: relative;
+	background-image: url("../picture/dianzan.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 30px;
+}
+
+.fny_yidianzan_in_one_comment{
+	position: relative;
+	background-image: url("../picture/yidianzan.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 30px;
+}
+
+.fny_user_list{
+	position: absolute;
+	background-color: white;
+	top: 30px;
+	left: 30px;
+	width: 900px;
+	height: 400px;
+	border: 5px solid black;
+	overflow:auto;
+}
+
+.fny_one_user{
+	position: relative;
+	top: 15px;
+	left: 25px;
+	width: 840px;
+	height: 90px;
+	border: 3px solid rgb(203, 203, 203);
+}
+
+.fny_concern_button{
+	position:relative;
+	background-color: #e66e53;
+	left: 570px;
+	top: -400px;
+	height: 40px;
+	width: 120px;
+	border-radius: 8px;
+	border-width: 8px;
+	text-align: center;
+	font-size: 16px;
+	border: hidden;
+}
+
+.fny_concern_button:hover {
+	background-color: rgb(186, 10, 10);
+	color:black;
+	transition: background-color 1.0s ease;
+}
+
+.fny_concern_button:active {
+	border: solid;
+}
+
+.fny_report_in_one_comment{
+	position: relative;
+	left: 525px;
+	top: -172px;
+	background-image: url("../picture/report.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 30px;
+}
+
+.fny_report_in_one_post{
+	position: relative;
+	left: 703px;
+	top: -439px;
+	background-image: url("../picture/report.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 40px;
+}
+
+.fny_change_picture{
+	position:relative;
+	background-color: rgb(117, 202, 244);
+	left: 170px;
+	top: -380px;
+	height: 40px;
+	width: 120px;
+	border-radius: 8px;
+	border-width: 8px;
+	text-align: center;
+	font-size: 16px;
+	border: hidden;
+}
+
+.fny_change_picture:hover {
+	background-color: rgb(10, 98, 186);
+	color:black;
+	transition: background-color 1.0s ease;
+}
+
+.fny_change_picture:active {
+	border: solid;
+}
+
+.fny_select_bar{
+	position: absolute;
+	background-color: white;
+	top:50px;
+	left: 50px;
+	width: 300px;
+	height: 200px;
+}
+
+.fny_select{
+	position:relative;
+	left: 120px;
+	top:16px;
+	color: black;
+	font-size: 17px;
+}
+
+.fny_username_in_user_list{
+	color: black;
+	position: relative;
+	top: -45px;
+	left: 100px;
+}
