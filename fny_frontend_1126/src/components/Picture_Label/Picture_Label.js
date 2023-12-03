@@ -8,9 +8,11 @@ export default class PictureLabel extends Component {
     static propTypes = {
         Picture_Label_Style: PropTypes.object,
         Picture_Label_Clicked: PropTypes.func,
+        Index: PropTypes.number,
     }
 
     static defaultProps = {
+        Index: null,
         Picture_Label_Style:{
             width: '75px',
             height: '75px',
@@ -19,8 +21,17 @@ export default class PictureLabel extends Component {
         Picture_Label_Clicked: null
     }
     
+    Picture_Clicked = () =>{
+        if(this.props.Index===null){
+            this.props.Picture_Label_Clicked()
+        }
+        else{
+            this.props.Picture_Label_Clicked(this.props.Index)
+        }
+    }
+
     // 注意不要忘记定义render，返回值就是页面要渲染的东西
     render() {
-        return <div onClick={this.props.Picture_Label_Clicked} style={this.props.Picture_Label_Style}></div>
+        return <div onClick={this.Picture_Clicked} style={this.props.Picture_Label_Style}></div>
     }
 }
