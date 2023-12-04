@@ -1,0 +1,22 @@
+.fny_green_button {
+	position:relative;
+	background-color: #4ff686;
+	height: 30px;
+	width: 100px;
+	border-radius: 15px;
+	border-width: 8px;
+	border-color: #bdbdbc;
+	text-align: center;
+	font-size: 16px;
+	border: hidden;
+}
+
+.fny_green_button:hover {
+	background-color: rgb(0, 159, 0);
+	color:black;
+	transition: background-color 1.0s ease;
+}
+
+.fny_green_button:active {
+	border: solid;
+}
