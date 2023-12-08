@@ -1,0 +1,29 @@
+.zgw_menu_button {
+	width: 151px;
+	height: 168px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 81, 199, 0.82);
+	cursor: pointer;
+	border: none
+  }
+.zgw_menu_button.active{
+	background-color: rgb(74, 124, 255);
+}
+.icon {
+	width: 24px; /* 根据需要调整图标的宽度 */
+	height: 24px; /* 根据需要调整图标的高度 */
+	margin-bottom: 5px;
+}
+  
+.text_menu {
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: 0px;
+	text-align: left;
+	/* 其他文本样式... */
+}

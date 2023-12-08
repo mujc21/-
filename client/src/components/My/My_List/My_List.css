@@ -1,0 +1,14 @@
+.my-post-list {
+  list-style: none;
+  column-gap: 0px;
+  column-fill: auto;
+  padding: 0px;
+  position: absolute;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: 1.5px solid rgba(2, 9, 16, 0.13);
+  height: 447px;
+  width: 765px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

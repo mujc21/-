@@ -1,0 +1,20 @@
+.zgw_my_info_button {
+	width: 60px;
+	height: 80px;
+	display: flex;
+	margin-right: 50px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	cursor: pointer;
+	border: none
+  }
+  
+  .text_info {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0px;
+	/* 其他文本样式... */
+  }

@@ -1,0 +1,20 @@
+.zgw_menu{
+    position: relative;
+    width: 151px;
+    height: 800px;
+    border-radius: 2px;
+    background: rgba(0, 81, 199, 0.82);
+}
+
+.community_label {
+    width: 151px; /* 根据需要设置 label 的宽度 */
+    height: 129px; /* 根据需要设置 label 的高度 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(4, 40, 131);
+    font-size: 36px; /* 根据需要设置文本的大小 */
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+  }
+  

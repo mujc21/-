@@ -1,0 +1,26 @@
+.zgw_modify_button {
+	height: 40px;
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	cursor: pointer;
+	border: none
+  }
+
+  .icon_modify {
+	width: 24px; /* 根据需要调整图标的宽度 */
+	height: 24px; /* 根据需要调整图标的高度 */
+	margin-right: 20px;
+  }
+  
+  .text_modify {
+	color: rgb(0, 88, 255);
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: left;
+	/* 其他文本样式... */
+  }
