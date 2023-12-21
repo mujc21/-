@@ -24,6 +24,9 @@ def composite_pcd():
     # 弹出第二个文件选择对话框
     filename2 = askopenfilename(title="选择第二片点云(npy)", filetypes=[("Numpy files", "*.npy")])
 
+    if not filename1 or not filename2:
+        return
+
     # 加载并处理文件
     pcd1 = np.load(filename1)
     pcd2 = np.load(filename2)
@@ -342,6 +345,7 @@ def composite_pcd():
 
 
     def save(vis):
+        vis.capture_screen_image("screenshot.png")
         # 初始化Tkinter窗口，但不显示
         Tk().withdraw()
 
