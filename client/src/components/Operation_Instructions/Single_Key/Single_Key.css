@@ -1,0 +1,43 @@
+.iconLabel{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #777;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(#ecebf2, #b4bbcb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(#fff, #fff, #e3e3e3);
+    filter: blur(1px);
+    z-index: 1;
+}
+.icon1::after{
+    content: '';
+    position: absolute;
+    top: 0.5px;
+    right: -1px;
+    width: 10px;
+    height: 98.5%;
+    background: #bababa;
+    filter: blur(1px);
+}
