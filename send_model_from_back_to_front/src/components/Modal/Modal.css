@@ -1,0 +1,16 @@
+.modal {
+  display: flex;
+  position: relative;
+  width: 88vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6); /* 半透明的背景 */
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}

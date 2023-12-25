@@ -1,0 +1,29 @@
+.fny_one_post {
+	position: relative;
+	background-color: #ffffff;
+	border: 5px solid black;
+	overflow:auto;
+	left: 50px;
+	top: 250px;
+	width: 830px;
+	height: 520px;
+    overflow: hidden;
+}
+
+.fny_username_in_one_post{
+	position:relative;
+	top: -58px;
+	left: -145px;
+    color: black; 
+    margin-bottom: 30px; 
+    text-align: center;
+}
+
+.fny_text_in_one_post{
+    position: relative;
+    width: 350px;
+    height: 80px;
+    top: -70px;
+    left: 200px;
+    overflow: auto;
+}
