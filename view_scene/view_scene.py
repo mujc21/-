@@ -6,8 +6,7 @@ import os
 
 
 def view_scene(filepath, use_color=True, edit=False):
-    pcd = np.load(filepath)
-    pcd = utility_reg.n2o(pcd)
+    pcd = utility_reg.read_ply_get_npy(filepath)
     if not use_color:
         pcd.paint_uniform_color(utility_reg.get_color('custom_yellow'))
     pcd.estimate_normals()
