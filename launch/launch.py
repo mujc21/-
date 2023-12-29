@@ -10,9 +10,7 @@ def take_png(vis):
     return False
 
 def launch_scene(filepath):
-
-    pcd = np.load(filepath)
-    pcd = utility_reg.n2o(pcd)
+    pcd = utility_reg.read_ply_get_npy(filepath)
     # 创建一个可视化器
     vis = o3d.visualization.VisualizerWithKeyCallback()
     # 添加点云到可视化器
@@ -27,3 +25,5 @@ def launch_scene(filepath):
 if __name__ == '__main__':
     filepath = '../pcds/my_src_740.npy'
     launch_scene(filepath)
+
+
