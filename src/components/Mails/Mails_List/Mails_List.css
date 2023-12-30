@@ -1,0 +1,66 @@
+
+  .message-list {
+    list-style: none;
+    position: absolute;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    box-sizing: border-box;
+    border-top: 1.5px solid rgba(2, 9, 16, 0.13);
+    border-bottom: 1.5px solid rgba(2, 9, 16, 0.13);
+    width: 88vw;
+    height: 84.125vh;
+    overflow-y: auto;
+  }
+  
+  .message-item {
+    display: flex;
+    margin-left: -40px;
+    align-items: center;
+    width: 88vw;
+    height: 15vh;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(2, 9, 16, 0.13);
+    border-radius: 2px;
+  }
+  
+  .avatar {
+    margin-left: 40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* 将头像设置为圆形 */
+    margin-right: 10px;
+    pointer: cursor;
+  }
+  
+  .message-content {
+    flex: 1;
+  }
+  
+  .username {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+  }
+  
+  .message {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis; /* 在文本溢出时显示省略号 */
+    white-space: nowrap; /* 防止文本换行 */
+    max-width: 1100px; /* 设置最大宽度，根据需要调整 */
+  }
+  
+  /* .footer {
+    position:absolute;
+    margin-top:auto;
+    padding: 5px;
+    color: #808080;
+    text-align: center;
+  } */

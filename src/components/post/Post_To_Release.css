@@ -1,0 +1,42 @@
+.post {
+	height: 100vh;
+	width: 88vw;
+	background-color: rgba(0, 0, 0, 0.2); /* 半透明的背景 */
+}
+
+.fny_post_to_release {
+	position: absolute;
+	background-color: #ffffff;
+	border: 2px solid black;
+	border-radius: 3px;
+	overflow: auto;
+	width: 830px;
+	height: 590px;
+    overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.fny_username_in_one_post{
+	position: relative;
+	top: -58px;
+	left: 180px;
+    color: black; 
+    margin-bottom: 30px; 
+}
+
+.show-materials {
+    list-style: none;
+    column-gap: 0px;
+    column-fill: auto;
+    padding: 0px;
+    position: absolute;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: none;
+    height: 90%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }

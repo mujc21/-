@@ -1,0 +1,22 @@
+.fny_blue_button {
+	position:relative;
+	background-color: rgb(117, 202, 244);
+	height: 30px;
+	width: 100px;
+	border-radius: 15px;
+	border-width: 8px;
+	border-color: #bdbdbc;
+	text-align: center;
+	font-size: 16px;
+	border: hidden;
+}
+
+.fny_blue_button:hover {
+	background-color: rgb(10, 98, 186);
+	color:black;
+	transition: background-color 1.0s ease;
+}
+
+.fny_blue_button:active {
+	border: solid;
+}
