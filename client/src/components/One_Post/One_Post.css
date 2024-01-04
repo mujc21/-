@@ -1,0 +1,39 @@
+.fny_top {
+	position: relative;
+	background-color: #ffffff;
+	border-radius: 3px;
+	overflow-y:hidden;
+	overflow-x:hidden;
+	left: 50px;
+	top: 250px;
+	width: 830px;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+}
+
+.fny_one_post {
+	overflow-y:scroll;
+	overflow-x:hidden;
+	background-color: #ffffff;
+	width: 830px;
+	height: 600px;
+	
+}
+
+.fny_text_in_one_post{
+    position: relative;
+    width: 420px;
+	top: -70px;
+    left: 170px;
+	max-height: 150px;
+	overflow-y: auto;
+}
+
+.fny_username_in_post{
+	position: relative;
+	top: -55px;
+	left: 170px;
+    color: black; 
+    margin-bottom: 30px; 
+}

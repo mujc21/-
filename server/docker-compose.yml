@@ -1,0 +1,41 @@
+version: '3'
+
+services: 
+  app:
+    container_name: app
+    restart: always
+    build: .
+    command: >
+      bash -c
+      "node app.cjs"
+    volumes:
+      - .:/app
+    expose:
+      - "8082"
+    ports:
+      - "8082:8082" 
+    depends_on:
+      - db
+    networks:
+      - app-network
+  
+  db:
+    image:  mysql:8.0
+    container_name: db
+    restart: always
+    expose:
+      - "3306"
+    ports: 
+      - "3306:3306"
+    environment: 
+      - MYSQL_ROOT_HOST='%'
+      - MYSQL_ROOT_PASSWORD=20030415
+      - MYSQL_DATABASE=user
+      - TZ=Asia/Shanghai                                                                                   
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    networks: 
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
